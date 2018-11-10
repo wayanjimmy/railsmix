@@ -24,7 +24,8 @@
 /config/master.key
 
 node_modules
-public/js/main.js
+public/css/app.css
+public/js/app.js
 public/js/manifest.js
 public/js/vendor.js
 public/mix-manifest.json

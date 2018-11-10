@@ -7,8 +7,6 @@ module LaravelMixHelper
       raise LaravelMixError.new('The mix manifest does not exist. Run `yarn dev`.')
     end
 
-    puts File.read(MANIFEST_FILE)
-
     manifest = JSON.parse(File.read(MANIFEST_FILE))
     asset_path(manifest[path])
   end
